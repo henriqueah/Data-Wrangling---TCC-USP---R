@@ -1,0 +1,379 @@
+"SKU FA","FA","TIPO","SKU COMPILADO","SKU ITEM","DESCRICAO","ANO PLO","VALOR"
+1,"DEFESA","PROGRAMA","1.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2021,170130241
+1,"DEFESA","PROGRAMA","1.909",909,"Operações Especiais: Outros Encargos Especiais",2021,20019
+1,"DEFESA","PROGRAMA","1.910",910,"Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais",2021,184577
+1,"DEFESA","PROGRAMA","1.6011",6011,"Cooperação com o Desenvolvimento Nacional",2021,348805360
+1,"DEFESA","PROGRAMA","1.6012",6012,"Defesa Nacional",2021,1394117430
+1,"DEFESA","FUNCAO","1.5",5,"Defesa Nacional",2021,1896528301
+1,"DEFESA","FUNCAO","1.9",9,"Previdência Social",2021,16524730
+1,"DEFESA","FUNCAO","1.28",28,"Encargos Especiais",2021,204596
+1,"DEFESA","SUBFUNCAO","1.121",121,"Planejamento e Orçamento",2021,1070055
+1,"DEFESA","SUBFUNCAO","1.122",122,"Administração Geral",2021,157029203
+1,"DEFESA","SUBFUNCAO","1.126",126,"Tecnologia da Informação",2021,16587018
+1,"DEFESA","SUBFUNCAO","1.128",128,"Formação de Recursos Humanos",2021,10286035
+1,"DEFESA","SUBFUNCAO","1.151",151,"Defesa Aérea",2021,246651360
+1,"DEFESA","SUBFUNCAO","1.153",153,"Defesa Terrestre",2021,420896849
+1,"DEFESA","SUBFUNCAO","1.183",183,"Informação e Inteligência",2021,1996833
+1,"DEFESA","SUBFUNCAO","1.212",212,"Cooperação Internacional",2021,27972691
+1,"DEFESA","SUBFUNCAO","1.244",244,"Assistência Comunitária",2021,895164936
+1,"DEFESA","SUBFUNCAO","1.272",272,"Previdência do Regime Estatutário",2021,16524730
+1,"DEFESA","SUBFUNCAO","1.301",301,"Atenção Básica",2021,11048983
+1,"DEFESA","SUBFUNCAO","1.331",331,"Proteção e Benefícios ao Trabalhador",2021,0
+1,"DEFESA","SUBFUNCAO","1.333",333,"Empregabilidade",2021,3290515
+1,"DEFESA","SUBFUNCAO","1.363",363,"Ensino Profissional",2021,0
+1,"DEFESA","SUBFUNCAO","1.366",366,"Educação de Jovens e Adultos",2021,2102151
+1,"DEFESA","SUBFUNCAO","1.542",542,"Controle Ambiental",2021,48662719
+1,"DEFESA","SUBFUNCAO","1.571",571,"Desenvolvimento Científico",2021,461972
+1,"DEFESA","SUBFUNCAO","1.572",572,"Desenvolvimento Tecnológico e Engenharia",2021,1629667
+1,"DEFESA","SUBFUNCAO","1.573",573,"Difusão do Conhecimento Científico e Tecnológico",2021,928677
+1,"DEFESA","SUBFUNCAO","1.722",722,"Telecomunicações",2021,37562410
+1,"DEFESA","SUBFUNCAO","1.811",811,"Desporto de Rendimento",2021,3120885
+1,"DEFESA","SUBFUNCAO","1.812",812,"Desporto Comunitário",2021,7225318
+1,"DEFESA","SUBFUNCAO","1.846",846,"Outros Encargos Especiais",2021,3044620
+1,"DEFESA","DESPESAS","1.1",1,"Pessoal e Encargos Sociais",2021,92795313
+1,"DEFESA","DESPESAS","1.3",3,"Outras Despesas Correntes",2021,725394156
+1,"DEFESA","DESPESAS","1.4",4,"Investimentos",2021,1095068158
+2,"EXERCITO","PROGRAMA","2.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2021,47219014846
+2,"EXERCITO","PROGRAMA","2.909",909,"Operações Especiais: Outros Encargos Especiais",2021,61172991
+2,"EXERCITO","PROGRAMA","2.999",999,"Reserva de Contingência",2021,9010904
+2,"EXERCITO","PROGRAMA","2.6011",6011,"Cooperação com o Desenvolvimento Nacional",2021,6820127
+2,"EXERCITO","PROGRAMA","2.6012",6012,"Defesa Nacional",2021,2936596191
+2,"EXERCITO","FUNCAO","2.5",5,"Defesa Nacional",2021,35564061123
+2,"EXERCITO","FUNCAO","2.9",9,"Previdência Social",2021,14598370041
+2,"EXERCITO","FUNCAO","2.28",28,"Encargos Especiais",2021,61172991
+2,"EXERCITO","FUNCAO","2.99",99,"Reserva de Contigência",2021,9010904
+2,"EXERCITO","SUBFUNCAO","2.122",122,"Administração Geral",2021,30588277706
+2,"EXERCITO","SUBFUNCAO","2.126",126,"Tecnologia da Informação",2021,17126804
+2,"EXERCITO","SUBFUNCAO","2.128",128,"Formação de Recursos Humanos",2021,64299058
+2,"EXERCITO","SUBFUNCAO","2.131",131,"Comunicação Social",2021,1426013
+2,"EXERCITO","SUBFUNCAO","2.153",153,"Defesa Terrestre",2021,2212531310
+2,"EXERCITO","SUBFUNCAO","2.183",183,"Informação e Inteligência",2021,4575740
+2,"EXERCITO","SUBFUNCAO","2.244",244,"Assistência Comunitária",2021,1.5e+07
+2,"EXERCITO","SUBFUNCAO","2.272",272,"Previdência do Regime Estatutário",2021,14598370041
+2,"EXERCITO","SUBFUNCAO","2.301",301,"Atenção Básica",2021,1705710121
+2,"EXERCITO","SUBFUNCAO","2.331",331,"Proteção e Benefícios ao Trabalhador",2021,827845222
+2,"EXERCITO","SUBFUNCAO","2.364",364,"Ensino Superior",2021,10236087
+2,"EXERCITO","SUBFUNCAO","2.368",368,"Educação Básica",2021,12489905
+2,"EXERCITO","SUBFUNCAO","2.781",781,"Transporte Aéreo",2021,6720127
+2,"EXERCITO","SUBFUNCAO","2.812",812,"Desporto Comunitário",2021,1e+05
+2,"EXERCITO","SUBFUNCAO","2.846",846,"Outros Encargos Especiais",2021,158896021
+2,"EXERCITO","SUBFUNCAO","2.999",999,"Reserva de Contingência",2021,9010904
+2,"EXERCITO","DESPESAS","2.1",1,"Pessoal e Encargos Sociais",2021,44881492821
+2,"EXERCITO","DESPESAS","2.3",3,"Outras Despesas Correntes",2021,4024638698
+2,"EXERCITO","DESPESAS","2.4",4,"Investimentos",2021,3914189828
+2,"EXERCITO","DESPESAS","2.9",9,"Reserva de Contingência",2021,9010904
+3,"AERONAUTICA","PROGRAMA","3.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2021,21083672733
+3,"AERONAUTICA","PROGRAMA","3.901",901,"Operações Especiais: Cumprimento de Sentenças Judiciais",2021,6814794
+3,"AERONAUTICA","PROGRAMA","3.906",906,"Operações Especiais: Serviço da Dívida Externa (Juros e Amortizações)",2021,1351403256
+3,"AERONAUTICA","PROGRAMA","3.909",909,"Operações Especiais: Outros Encargos Especiais",2021,374347257
+3,"AERONAUTICA","PROGRAMA","3.999",999,"Reserva de Contingência",2021,1e+06
+3,"AERONAUTICA","PROGRAMA","3.6011",6011,"Cooperação com o Desenvolvimento Nacional",2021,1e+06
+3,"AERONAUTICA","PROGRAMA","3.6012",6012,"Defesa Nacional",2021,2430820371
+3,"AERONAUTICA","FUNCAO","3.5",5,"Defesa Nacional",2021,17949989087
+3,"AERONAUTICA","FUNCAO","3.9",9,"Previdência Social",2021,5590504017
+3,"AERONAUTICA","FUNCAO","3.28",28,"Encargos Especiais",2021,1707565307
+3,"AERONAUTICA","FUNCAO","3.99",99,"Reserva de Contigência",2021,1e+06
+3,"AERONAUTICA","SUBFUNCAO","3.121",121,"Planejamento e Orçamento",2021,0
+3,"AERONAUTICA","SUBFUNCAO","3.122",122,"Administração Geral",2021,14471587650
+3,"AERONAUTICA","SUBFUNCAO","3.128",128,"Formação de Recursos Humanos",2021,14520346
+3,"AERONAUTICA","SUBFUNCAO","3.151",151,"Defesa Aérea",2021,2265548733
+3,"AERONAUTICA","SUBFUNCAO","3.183",183,"Informação e Inteligência",2021,187605
+3,"AERONAUTICA","SUBFUNCAO","3.272",272,"Previdência do Regime Estatutário",2021,5590504017
+3,"AERONAUTICA","SUBFUNCAO","3.301",301,"Atenção Básica",2021,886693603
+3,"AERONAUTICA","SUBFUNCAO","3.331",331,"Proteção e Benefícios ao Trabalhador",2021,205977900
+3,"AERONAUTICA","SUBFUNCAO","3.364",364,"Ensino Superior",2021,3080787
+3,"AERONAUTICA","SUBFUNCAO","3.482",482,"Habitação Urbana",2021,2468472
+3,"AERONAUTICA","SUBFUNCAO","3.812",812,"Desporto Comunitário",2021,1e+06
+3,"AERONAUTICA","SUBFUNCAO","3.844",844,"Serviço da Dívida Externa",2021,1351403256
+3,"AERONAUTICA","SUBFUNCAO","3.846",846,"Outros Encargos Especiais",2021,455086042
+3,"AERONAUTICA","SUBFUNCAO","3.999",999,"Reserva de Contingência",2021,1e+06
+3,"AERONAUTICA","DESPESAS","3.1",1,"Pessoal e Encargos Sociais",2021,20366420087
+3,"AERONAUTICA","DESPESAS","3.2",2,"Juros e Encargos da Dívida",2021,555128541
+3,"AERONAUTICA","DESPESAS","3.3",3,"Outras Despesas Correntes",2021,1522662785
+3,"AERONAUTICA","DESPESAS","3.4",4,"Investimentos",2021,1982572283
+3,"AERONAUTICA","DESPESAS","3.5",5,"Inversões Financeiras",2021,2.5e+07
+3,"AERONAUTICA","DESPESAS","3.6",6,"Amortização da Dívida",2021,796274715
+3,"AERONAUTICA","DESPESAS","3.9",9,"Reserva de Contingência",2021,1e+06
+4,"MARINHA","PROGRAMA","4.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2021,25151510026
+4,"MARINHA","PROGRAMA","4.906",906,"Operações Especiais: Serviço da Dívida Externa (Juros e Amortizações)",2021,2205839500
+4,"MARINHA","PROGRAMA","4.909",909,"Operações Especiais: Outros Encargos Especiais",2021,189082112
+4,"MARINHA","PROGRAMA","4.910",910,"Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais",2021,93052
+4,"MARINHA","PROGRAMA","4.999",999,"Reserva de Contingência",2021,0
+4,"MARINHA","PROGRAMA","4.6011",6011,"Cooperação com o Desenvolvimento Nacional",2021,1e+05
+4,"MARINHA","PROGRAMA","4.6012",6012,"Defesa Nacional",2021,2253059729
+4,"MARINHA","FUNCAO","4.5",5,"Defesa Nacional",2021,20569035730
+4,"MARINHA","FUNCAO","4.9",9,"Previdência Social",2021,6835634025
+4,"MARINHA","FUNCAO","4.28",28,"Encargos Especiais",2021,2395014664
+4,"MARINHA","FUNCAO","4.99",99,"Reserva de Contigência",2021,0
+4,"MARINHA","SUBFUNCAO","4.121",121,"Planejamento e Orçamento",2021,0
+4,"MARINHA","SUBFUNCAO","4.122",122,"Administração Geral",2021,16846352696
+4,"MARINHA","SUBFUNCAO","4.125",125,"Normatização e Fiscalização",2021,3e+05
+4,"MARINHA","SUBFUNCAO","4.152",152,"Defesa Naval",2021,1743919880
+4,"MARINHA","SUBFUNCAO","4.183",183,"Informação e Inteligência",2021,150000
+4,"MARINHA","SUBFUNCAO","4.272",272,"Previdência do Regime Estatutário",2021,6835634025
+4,"MARINHA","SUBFUNCAO","4.301",301,"Atenção Básica",2021,1338557074
+4,"MARINHA","SUBFUNCAO","4.331",331,"Proteção e Benefícios ao Trabalhador",2021,345332849
+4,"MARINHA","SUBFUNCAO","4.571",571,"Desenvolvimento Científico",2021,0
+4,"MARINHA","SUBFUNCAO","4.572",572,"Desenvolvimento Tecnológico e Engenharia",2021,213117000
+4,"MARINHA","SUBFUNCAO","4.812",812,"Desporto Comunitário",2021,1e+05
+4,"MARINHA","SUBFUNCAO","4.844",844,"Serviço da Dívida Externa",2021,2205839500
+4,"MARINHA","SUBFUNCAO","4.846",846,"Outros Encargos Especiais",2021,270381395
+4,"MARINHA","SUBFUNCAO","4.999",999,"Reserva de Contingência",2021,0
+4,"MARINHA","DESPESAS","4.1",1,"Pessoal e Encargos Sociais",2021,23888060189
+4,"MARINHA","DESPESAS","4.2",2,"Juros e Encargos da Dívida",2021,443479991
+4,"MARINHA","DESPESAS","4.3",3,"Outras Despesas Correntes",2021,1693929898
+4,"MARINHA","DESPESAS","4.4",4,"Investimentos",2021,2011854832
+4,"MARINHA","DESPESAS","4.6",6,"Amortização da Dívida",2021,1762359509
+4,"MARINHA","DESPESAS","4.9",9,"Reserva de Contingência",2021,0
+1,"DEFESA","PROGRAMA","1.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2022,284976329
+1,"DEFESA","PROGRAMA","1.909",909,"Operações Especiais: Outros Encargos Especiais",2022,19608
+1,"DEFESA","PROGRAMA","1.910",910,"Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais",2022,244600
+1,"DEFESA","PROGRAMA","1.6011",6011,"Cooperação com o Desenvolvimento Nacional",2022,324911615
+1,"DEFESA","PROGRAMA","1.6012",6012,"Defesa Nacional",2022,673886298
+1,"DEFESA","FUNCAO","1.5",5,"Defesa Nacional",2022,1267394242
+1,"DEFESA","FUNCAO","1.9",9,"Previdência Social",2022,16380000
+1,"DEFESA","FUNCAO","1.28",28,"Encargos Especiais",2022,264208
+1,"DEFESA","SUBFUNCAO","1.121",121,"Planejamento e Orçamento",2022,1199965
+1,"DEFESA","SUBFUNCAO","1.122",122,"Administração Geral",2022,290667247
+1,"DEFESA","SUBFUNCAO","1.126",126,"Tecnologia da Informação",2022,70100081
+1,"DEFESA","SUBFUNCAO","1.128",128,"Formação de Recursos Humanos",2022,1e+07
+1,"DEFESA","SUBFUNCAO","1.151",151,"Defesa Aérea",2022,368372596
+1,"DEFESA","SUBFUNCAO","1.153",153,"Defesa Terrestre",2022,370521062
+1,"DEFESA","SUBFUNCAO","1.183",183,"Informação e Inteligência",2022,4044939
+1,"DEFESA","SUBFUNCAO","1.212",212,"Cooperação Internacional",2022,16874725
+1,"DEFESA","SUBFUNCAO","1.244",244,"Assistência Comunitária",2022,0
+1,"DEFESA","SUBFUNCAO","1.272",272,"Previdência do Regime Estatutário",2022,16380000
+1,"DEFESA","SUBFUNCAO","1.301",301,"Atenção Básica",2022,10724904
+1,"DEFESA","SUBFUNCAO","1.331",331,"Proteção e Benefícios ao Trabalhador",2022,0
+1,"DEFESA","SUBFUNCAO","1.333",333,"Empregabilidade",2022,4290515
+1,"DEFESA","SUBFUNCAO","1.363",363,"Ensino Profissional",2022,98398
+1,"DEFESA","SUBFUNCAO","1.366",366,"Educação de Jovens e Adultos",2022,1671100
+1,"DEFESA","SUBFUNCAO","1.542",542,"Controle Ambiental",2022,50787500
+1,"DEFESA","SUBFUNCAO","1.571",571,"Desenvolvimento Científico",2022,562500
+1,"DEFESA","SUBFUNCAO","1.572",572,"Desenvolvimento Tecnológico e Engenharia",2022,1e+06
+1,"DEFESA","SUBFUNCAO","1.573",573,"Difusão do Conhecimento Científico e Tecnológico",2022,1491400
+1,"DEFESA","SUBFUNCAO","1.722",722,"Telecomunicações",2022,57683132
+1,"DEFESA","SUBFUNCAO","1.811",811,"Desporto de Rendimento",2022,4362500
+1,"DEFESA","SUBFUNCAO","1.812",812,"Desporto Comunitário",2022,3e+05
+1,"DEFESA","SUBFUNCAO","1.846",846,"Outros Encargos Especiais",2022,2905886
+1,"DEFESA","DESPESAS","1.1",1,"Pessoal e Encargos Sociais",2022,167710016
+1,"DEFESA","DESPESAS","1.3",3,"Outras Despesas Correntes",2022,643958530
+1,"DEFESA","DESPESAS","1.4",4,"Investimentos",2022,472369904
+2,"EXERCITO","PROGRAMA","2.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2022,48392170626
+2,"EXERCITO","PROGRAMA","2.909",909,"Operações Especiais: Outros Encargos Especiais",2022,67478391
+2,"EXERCITO","PROGRAMA","2.999",999,"Reserva de Contingência",2022,2876393
+2,"EXERCITO","PROGRAMA","2.6011",6011,"Cooperação com o Desenvolvimento Nacional",2022,0
+2,"EXERCITO","PROGRAMA","2.6012",6012,"Defesa Nacional",2022,3163248986
+2,"EXERCITO","FUNCAO","2.5",5,"Defesa Nacional",2022,36589984236
+2,"EXERCITO","FUNCAO","2.9",9,"Previdência Social",2022,14965435376
+2,"EXERCITO","FUNCAO","2.28",28,"Encargos Especiais",2022,67478391
+2,"EXERCITO","FUNCAO","2.99",99,"Reserva de Contigência",2022,2876393
+2,"EXERCITO","SUBFUNCAO","2.122",122,"Administração Geral",2022,31363614206
+2,"EXERCITO","SUBFUNCAO","2.126",126,"Tecnologia da Informação",2022,19805825
+2,"EXERCITO","SUBFUNCAO","2.128",128,"Formação de Recursos Humanos",2022,66880612
+2,"EXERCITO","SUBFUNCAO","2.131",131,"Comunicação Social",2022,1534357
+2,"EXERCITO","SUBFUNCAO","2.153",153,"Defesa Terrestre",2022,2456963924
+2,"EXERCITO","SUBFUNCAO","2.183",183,"Informação e Inteligência",2022,5179888
+2,"EXERCITO","SUBFUNCAO","2.244",244,"Assistência Comunitária",2022,8200000
+2,"EXERCITO","SUBFUNCAO","2.272",272,"Previdência do Regime Estatutário",2022,14965435376
+2,"EXERCITO","SUBFUNCAO","2.301",301,"Atenção Básica",2022,1743966297
+2,"EXERCITO","SUBFUNCAO","2.331",331,"Proteção e Benefícios ao Trabalhador",2022,810607157
+2,"EXERCITO","SUBFUNCAO","2.364",364,"Ensino Superior",2022,10629610
+2,"EXERCITO","SUBFUNCAO","2.368",368,"Educação Básica",2022,12439573
+2,"EXERCITO","SUBFUNCAO","2.781",781,"Transporte Aéreo",2022,0
+2,"EXERCITO","SUBFUNCAO","2.812",812,"Desporto Comunitário",2022,0
+2,"EXERCITO","SUBFUNCAO","2.846",846,"Outros Encargos Especiais",2022,157641178
+2,"EXERCITO","SUBFUNCAO","2.999",999,"Reserva de Contingência",2022,2876393
+2,"EXERCITO","DESPESAS","2.1",1,"Pessoal e Encargos Sociais",2022,45999677811
+2,"EXERCITO","DESPESAS","2.3",3,"Outras Despesas Correntes",2022,3846779510
+2,"EXERCITO","DESPESAS","2.4",4,"Investimentos",2022,1776440682
+2,"EXERCITO","DESPESAS","2.9",9,"Reserva de Contingência",2022,2876393
+3,"AERONAUTICA","PROGRAMA","3.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2022,21374718416
+3,"AERONAUTICA","PROGRAMA","3.901",901,"Operações Especiais: Cumprimento de Sentenças Judiciais",2022,1e+06
+3,"AERONAUTICA","PROGRAMA","3.906",906,"Operações Especiais: Serviço da Dívida Externa (Juros e Amortizações)",2022,1444664945
+3,"AERONAUTICA","PROGRAMA","3.909",909,"Operações Especiais: Outros Encargos Especiais",2022,353010057
+3,"AERONAUTICA","PROGRAMA","3.999",999,"Reserva de Contingência",2022,0
+3,"AERONAUTICA","PROGRAMA","3.6011",6011,"Cooperação com o Desenvolvimento Nacional",2022,0
+3,"AERONAUTICA","PROGRAMA","3.6012",6012,"Defesa Nacional",2022,2334968697
+3,"AERONAUTICA","FUNCAO","3.5",5,"Defesa Nacional",2022,17987617198
+3,"AERONAUTICA","FUNCAO","3.9",9,"Previdência Social",2022,5722069915
+3,"AERONAUTICA","FUNCAO","3.28",28,"Encargos Especiais",2022,1798675002
+3,"AERONAUTICA","FUNCAO","3.99",99,"Reserva de Contigência",2022,0
+3,"AERONAUTICA","SUBFUNCAO","3.121",121,"Planejamento e Orçamento",2022,0
+3,"AERONAUTICA","SUBFUNCAO","3.122",122,"Administração Geral",2022,14718599624
+3,"AERONAUTICA","SUBFUNCAO","3.128",128,"Formação de Recursos Humanos",2022,17806586
+3,"AERONAUTICA","SUBFUNCAO","3.151",151,"Defesa Aérea",2022,2141279211
+3,"AERONAUTICA","SUBFUNCAO","3.183",183,"Informação e Inteligência",2022,6e+05
+3,"AERONAUTICA","SUBFUNCAO","3.272",272,"Previdência do Regime Estatutário",2022,5722069915
+3,"AERONAUTICA","SUBFUNCAO","3.301",301,"Atenção Básica",2022,800588864
+3,"AERONAUTICA","SUBFUNCAO","3.331",331,"Proteção e Benefícios ao Trabalhador",2022,205977900
+3,"AERONAUTICA","SUBFUNCAO","3.364",364,"Ensino Superior",2022,2800000
+3,"AERONAUTICA","SUBFUNCAO","3.482",482,"Habitação Urbana",2022,5e+06
+3,"AERONAUTICA","SUBFUNCAO","3.812",812,"Desporto Comunitário",2022,0
+3,"AERONAUTICA","SUBFUNCAO","3.844",844,"Serviço da Dívida Externa",2022,1444664945
+3,"AERONAUTICA","SUBFUNCAO","3.846",846,"Outros Encargos Especiais",2022,448975070
+3,"AERONAUTICA","SUBFUNCAO","3.999",999,"Reserva de Contingência",2022,0
+3,"AERONAUTICA","DESPESAS","3.1",1,"Pessoal e Encargos Sociais",2022,20604383444
+3,"AERONAUTICA","DESPESAS","3.2",2,"Juros e Encargos da Dívida",2022,682316692
+3,"AERONAUTICA","DESPESAS","3.3",3,"Outras Despesas Correntes",2022,1324590275
+3,"AERONAUTICA","DESPESAS","3.4",4,"Investimentos",2022,2134373451
+3,"AERONAUTICA","DESPESAS","3.5",5,"Inversões Financeiras",2022,350000
+3,"AERONAUTICA","DESPESAS","3.6",6,"Amortização da Dívida",2022,762348253
+3,"AERONAUTICA","DESPESAS","3.9",9,"Reserva de Contingência",2022,0
+4,"MARINHA","PROGRAMA","4.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2022,25483758064
+4,"MARINHA","PROGRAMA","4.906",906,"Operações Especiais: Serviço da Dívida Externa (Juros e Amortizações)",2022,1728873494
+4,"MARINHA","PROGRAMA","4.909",909,"Operações Especiais: Outros Encargos Especiais",2022,192306637
+4,"MARINHA","PROGRAMA","4.910",910,"Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais",2022,56050
+4,"MARINHA","PROGRAMA","4.999",999,"Reserva de Contingência",2022,0
+4,"MARINHA","PROGRAMA","4.6011",6011,"Cooperação com o Desenvolvimento Nacional",2022,0
+4,"MARINHA","PROGRAMA","4.6012",6012,"Defesa Nacional",2022,2419615303
+4,"MARINHA","FUNCAO","4.5",5,"Defesa Nacional",2022,21167454567
+4,"MARINHA","FUNCAO","4.9",9,"Previdência Social",2022,6735918800
+4,"MARINHA","FUNCAO","4.28",28,"Encargos Especiais",2022,1921236181
+4,"MARINHA","FUNCAO","4.99",99,"Reserva de Contigência",2022,0
+4,"MARINHA","SUBFUNCAO","4.121",121,"Planejamento e Orçamento",2022,0
+4,"MARINHA","SUBFUNCAO","4.122",122,"Administração Geral",2022,17343650958
+4,"MARINHA","SUBFUNCAO","4.125",125,"Normatização e Fiscalização",2022,0
+4,"MARINHA","SUBFUNCAO","4.152",152,"Defesa Naval",2022,1744743298
+4,"MARINHA","SUBFUNCAO","4.183",183,"Informação e Inteligência",2022,178805
+4,"MARINHA","SUBFUNCAO","4.272",272,"Previdência do Regime Estatutário",2022,6735918800
+4,"MARINHA","SUBFUNCAO","4.301",301,"Atenção Básica",2022,1259182467
+4,"MARINHA","SUBFUNCAO","4.331",331,"Proteção e Benefícios ao Trabalhador",2022,343609159
+4,"MARINHA","SUBFUNCAO","4.571",571,"Desenvolvimento Científico",2022,1774223
+4,"MARINHA","SUBFUNCAO","4.572",572,"Desenvolvimento Tecnológico e Engenharia",2022,4e+08
+4,"MARINHA","SUBFUNCAO","4.812",812,"Desporto Comunitário",2022,0
+4,"MARINHA","SUBFUNCAO","4.844",844,"Serviço da Dívida Externa",2022,1728873494
+4,"MARINHA","SUBFUNCAO","4.846",846,"Outros Encargos Especiais",2022,266678344
+4,"MARINHA","SUBFUNCAO","4.999",999,"Reserva de Contingência",2022,0
+4,"MARINHA","DESPESAS","4.1",1,"Pessoal e Encargos Sociais",2022,24284585182
+4,"MARINHA","DESPESAS","4.2",2,"Juros e Encargos da Dívida",2022,380168025
+4,"MARINHA","DESPESAS","4.3",3,"Outras Despesas Correntes",2022,1682075462
+4,"MARINHA","DESPESAS","4.4",4,"Investimentos",2022,2129075410
+4,"MARINHA","DESPESAS","4.6",6,"Amortização da Dívida",2022,1348705469
+4,"MARINHA","DESPESAS","4.9",9,"Reserva de Contingência",2022,0
+1,"DEFESA","PROGRAMA","1.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2023,329611054
+1,"DEFESA","PROGRAMA","1.909",909,"Operações Especiais: Outros Encargos Especiais",2023,33920
+1,"DEFESA","PROGRAMA","1.910",910,"Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais",2023,243601
+1,"DEFESA","PROGRAMA","1.6011",6011,"Cooperação com o Desenvolvimento Nacional",2023,316620420
+1,"DEFESA","PROGRAMA","1.6012",6012,"Defesa Nacional",2023,681936859
+1,"DEFESA","FUNCAO","1.5",5,"Defesa Nacional",2023,1312164241
+1,"DEFESA","FUNCAO","1.9",9,"Previdência Social",2023,16004092
+1,"DEFESA","FUNCAO","1.28",28,"Encargos Especiais",2023,277521
+1,"DEFESA","SUBFUNCAO","1.121",121,"Planejamento e Orçamento",2023,2677965
+1,"DEFESA","SUBFUNCAO","1.122",122,"Administração Geral",2023,328846936
+1,"DEFESA","SUBFUNCAO","1.126",126,"Tecnologia da Informação",2023,74958014
+1,"DEFESA","SUBFUNCAO","1.128",128,"Formação de Recursos Humanos",2023,12744000
+1,"DEFESA","SUBFUNCAO","1.151",151,"Defesa Aérea",2023,357781531
+1,"DEFESA","SUBFUNCAO","1.153",153,"Defesa Terrestre",2023,371252105
+1,"DEFESA","SUBFUNCAO","1.183",183,"Informação e Inteligência",2023,4324159
+1,"DEFESA","SUBFUNCAO","1.212",212,"Cooperação Internacional",2023,29185938
+1,"DEFESA","SUBFUNCAO","1.244",244,"Assistência Comunitária",2023,0
+1,"DEFESA","SUBFUNCAO","1.272",272,"Previdência do Regime Estatutário",2023,16004092
+1,"DEFESA","SUBFUNCAO","1.301",301,"Atenção Básica",2023,0
+1,"DEFESA","SUBFUNCAO","1.331",331,"Proteção e Benefícios ao Trabalhador",2023,10619163
+1,"DEFESA","SUBFUNCAO","1.333",333,"Empregabilidade",2023,4432302
+1,"DEFESA","SUBFUNCAO","1.363",363,"Ensino Profissional",2023,0
+1,"DEFESA","SUBFUNCAO","1.366",366,"Educação de Jovens e Adultos",2023,1500000
+1,"DEFESA","SUBFUNCAO","1.542",542,"Controle Ambiental",2023,46031306
+1,"DEFESA","SUBFUNCAO","1.571",571,"Desenvolvimento Científico",2023,420000
+1,"DEFESA","SUBFUNCAO","1.572",572,"Desenvolvimento Tecnológico e Engenharia",2023,1e+06
+1,"DEFESA","SUBFUNCAO","1.573",573,"Difusão do Conhecimento Científico e Tecnológico",2023,1491400
+1,"DEFESA","SUBFUNCAO","1.722",722,"Telecomunicações",2023,57500000
+1,"DEFESA","SUBFUNCAO","1.811",811,"Desporto de Rendimento",2023,4356812
+1,"DEFESA","SUBFUNCAO","1.812",812,"Desporto Comunitário",2023,3e+05
+1,"DEFESA","SUBFUNCAO","1.846",846,"Outros Encargos Especiais",2023,3020131
+1,"DEFESA","DESPESAS","1.1",1,"Pessoal e Encargos Sociais",2023,178366694
+1,"DEFESA","DESPESAS","1.3",3,"Outras Despesas Correntes",2023,729852083
+1,"DEFESA","DESPESAS","1.4",4,"Investimentos",2023,420227077
+2,"EXERCITO","PROGRAMA","2.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2023,49521263794
+2,"EXERCITO","PROGRAMA","2.909",909,"Operações Especiais: Outros Encargos Especiais",2023,61143811
+2,"EXERCITO","PROGRAMA","2.999",999,"Reserva de Contingência",2023,40060000
+2,"EXERCITO","PROGRAMA","2.6011",6011,"Cooperação com o Desenvolvimento Nacional",2023,0
+2,"EXERCITO","PROGRAMA","2.6012",6012,"Defesa Nacional",2023,3210950631
+2,"EXERCITO","FUNCAO","2.5",5,"Defesa Nacional",2023,37350601172
+2,"EXERCITO","FUNCAO","2.9",9,"Previdência Social",2023,15381613253
+2,"EXERCITO","FUNCAO","2.28",28,"Encargos Especiais",2023,61143811
+2,"EXERCITO","FUNCAO","2.99",99,"Reserva de Contigência",2023,40060000
+2,"EXERCITO","SUBFUNCAO","2.122",122,"Administração Geral",2023,32090355296
+2,"EXERCITO","SUBFUNCAO","2.126",126,"Tecnologia da Informação",2023,15801000
+2,"EXERCITO","SUBFUNCAO","2.128",128,"Formação de Recursos Humanos",2023,7.1e+07
+2,"EXERCITO","SUBFUNCAO","2.131",131,"Comunicação Social",2023,4500000
+2,"EXERCITO","SUBFUNCAO","2.153",153,"Defesa Terrestre",2023,2506930894
+2,"EXERCITO","SUBFUNCAO","2.183",183,"Informação e Inteligência",2023,5500000
+2,"EXERCITO","SUBFUNCAO","2.244",244,"Assistência Comunitária",2023,5500000
+2,"EXERCITO","SUBFUNCAO","2.272",272,"Previdência do Regime Estatutário",2023,15381613253
+2,"EXERCITO","SUBFUNCAO","2.301",301,"Atenção Básica",2023,0
+2,"EXERCITO","SUBFUNCAO","2.331",331,"Proteção e Benefícios ao Trabalhador",2023,2542744194
+2,"EXERCITO","SUBFUNCAO","2.364",364,"Ensino Superior",2023,10629610
+2,"EXERCITO","SUBFUNCAO","2.368",368,"Educação Básica",2023,15900000
+2,"EXERCITO","SUBFUNCAO","2.781",781,"Transporte Aéreo",2023,0
+2,"EXERCITO","SUBFUNCAO","2.812",812,"Desporto Comunitário",2023,0
+2,"EXERCITO","SUBFUNCAO","2.846",846,"Outros Encargos Especiais",2023,142883989
+2,"EXERCITO","SUBFUNCAO","2.999",999,"Reserva de Contingência",2023,40060000
+2,"EXERCITO","DESPESAS","2.1",1,"Pessoal e Encargos Sociais",2023,47100748292
+2,"EXERCITO","DESPESAS","2.3",3,"Outras Despesas Correntes",2023,3914189828
+2,"EXERCITO","DESPESAS","2.4",4,"Investimentos",2023,1778420116
+2,"EXERCITO","DESPESAS","2.9",9,"Reserva de Contingência",2023,40060000
+3,"AERONAUTICA","PROGRAMA","3.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2023,22116102165
+3,"AERONAUTICA","PROGRAMA","3.901",901,"Operações Especiais: Cumprimento de Sentenças Judiciais",2023,1e+06
+3,"AERONAUTICA","PROGRAMA","3.906",906,"Operações Especiais: Serviço da Dívida Externa (Juros e Amortizações)",2023,1446852290
+3,"AERONAUTICA","PROGRAMA","3.909",909,"Operações Especiais: Outros Encargos Especiais",2023,360587053
+3,"AERONAUTICA","PROGRAMA","3.999",999,"Reserva de Contingência",2023,0
+3,"AERONAUTICA","PROGRAMA","3.6011",6011,"Cooperação com o Desenvolvimento Nacional",2023,0
+3,"AERONAUTICA","PROGRAMA","3.6012",6012,"Defesa Nacional",2023,2156748101
+3,"AERONAUTICA","FUNCAO","3.5",5,"Defesa Nacional",2023,18365985983
+3,"AERONAUTICA","FUNCAO","3.9",9,"Previdência Social",2023,5906864283
+3,"AERONAUTICA","FUNCAO","3.28",28,"Encargos Especiais",2023,1808439343
+3,"AERONAUTICA","FUNCAO","3.99",99,"Reserva de Contigência",2023,0
+3,"AERONAUTICA","SUBFUNCAO","3.121",121,"Planejamento e Orçamento",2023,424986
+3,"AERONAUTICA","SUBFUNCAO","3.122",122,"Administração Geral",2023,15246607335
+3,"AERONAUTICA","SUBFUNCAO","3.128",128,"Formação de Recursos Humanos",2023,31327209
+3,"AERONAUTICA","SUBFUNCAO","3.151",151,"Defesa Aérea",2023,1945434097
+3,"AERONAUTICA","SUBFUNCAO","3.183",183,"Informação e Inteligência",2023,2203148
+3,"AERONAUTICA","SUBFUNCAO","3.272",272,"Previdência do Regime Estatutário",2023,5906864283
+3,"AERONAUTICA","SUBFUNCAO","3.301",301,"Atenção Básica",2023,0
+3,"AERONAUTICA","SUBFUNCAO","3.331",331,"Proteção e Benefícios ao Trabalhador",2023,1043057601
+3,"AERONAUTICA","SUBFUNCAO","3.364",364,"Ensino Superior",2023,4875761
+3,"AERONAUTICA","SUBFUNCAO","3.482",482,"Habitação Urbana",2023,0
+3,"AERONAUTICA","SUBFUNCAO","3.812",812,"Desporto Comunitário",2023,0
+3,"AERONAUTICA","SUBFUNCAO","3.844",844,"Serviço da Dívida Externa",2023,1446852290
+3,"AERONAUTICA","SUBFUNCAO","3.846",846,"Outros Encargos Especiais",2023,453642899
+3,"AERONAUTICA","SUBFUNCAO","3.999",999,"Reserva de Contingência",2023,0
+3,"AERONAUTICA","DESPESAS","3.1",1,"Pessoal e Encargos Sociais",2023,21541524168
+3,"AERONAUTICA","DESPESAS","3.2",2,"Juros e Encargos da Dívida",2023,783658286
+3,"AERONAUTICA","DESPESAS","3.3",3,"Outras Despesas Correntes",2023,1170266034
+3,"AERONAUTICA","DESPESAS","3.4",4,"Investimentos",2023,1922647117
+3,"AERONAUTICA","DESPESAS","3.5",5,"Inversões Financeiras",2023,0
+3,"AERONAUTICA","DESPESAS","3.6",6,"Amortização da Dívida",2023,663194004
+3,"AERONAUTICA","DESPESAS","3.9",9,"Reserva de Contingência",2023,0
+4,"MARINHA","PROGRAMA","4.32",32,"Programa de Gestão e Manutenção do Poder Executivo",2023,26379401695
+4,"MARINHA","PROGRAMA","4.906",906,"Operações Especiais: Serviço da Dívida Externa (Juros e Amortizações)",2023,1604583409
+4,"MARINHA","PROGRAMA","4.909",909,"Operações Especiais: Outros Encargos Especiais",2023,191543686
+4,"MARINHA","PROGRAMA","4.910",910,"Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais",2023,104986
+4,"MARINHA","PROGRAMA","4.999",999,"Reserva de Contingência",2023,875261835
+4,"MARINHA","PROGRAMA","4.6011",6011,"Cooperação com o Desenvolvimento Nacional",2023,0
+4,"MARINHA","PROGRAMA","4.6012",6012,"Defesa Nacional",2023,2299700230
+4,"MARINHA","FUNCAO","4.5",5,"Defesa Nacional",2023,21612560198
+4,"MARINHA","FUNCAO","4.9",9,"Previdência Social",2023,7066541727
+4,"MARINHA","FUNCAO","4.28",28,"Encargos Especiais",2023,1796232081
+4,"MARINHA","FUNCAO","4.99",99,"Reserva de Contigência",2023,875261835
+4,"MARINHA","SUBFUNCAO","4.121",121,"Planejamento e Orçamento",2023,65000
+4,"MARINHA","SUBFUNCAO","4.122",122,"Administração Geral",2023,17871992209
+4,"MARINHA","SUBFUNCAO","4.125",125,"Normatização e Fiscalização",2023,0
+4,"MARINHA","SUBFUNCAO","4.152",152,"Defesa Naval",2023,1679430219
+4,"MARINHA","SUBFUNCAO","4.183",183,"Informação e Inteligência",2023,349954
+4,"MARINHA","SUBFUNCAO","4.272",272,"Previdência do Regime Estatutário",2023,7066541727
+4,"MARINHA","SUBFUNCAO","4.301",301,"Atenção Básica",2023,0
+4,"MARINHA","SUBFUNCAO","4.331",331,"Proteção e Benefícios ao Trabalhador",2023,1647445990
+4,"MARINHA","SUBFUNCAO","4.571",571,"Desenvolvimento Científico",2023,0
+4,"MARINHA","SUBFUNCAO","4.572",572,"Desenvolvimento Tecnológico e Engenharia",2023,345161857
+4,"MARINHA","SUBFUNCAO","4.812",812,"Desporto Comunitário",2023,0
+4,"MARINHA","SUBFUNCAO","4.844",844,"Serviço da Dívida Externa",2023,1604583409
+4,"MARINHA","SUBFUNCAO","4.846",846,"Outros Encargos Especiais",2023,259763641
+4,"MARINHA","SUBFUNCAO","4.999",999,"Reserva de Contingência",2023,875261835
+4,"MARINHA","DESPESAS","4.1",1,"Pessoal e Encargos Sociais",2023,25133032781
+4,"MARINHA","DESPESAS","4.2",2,"Juros e Encargos da Dívida",2023,368019077
+4,"MARINHA","DESPESAS","4.3",3,"Outras Despesas Correntes",2023,1745409586
+4,"MARINHA","DESPESAS","4.4",4,"Investimentos",2023,1992308230
+4,"MARINHA","DESPESAS","4.6",6,"Amortização da Dívida",2023,1236564332
+4,"MARINHA","DESPESAS","4.9",9,"Reserva de Contingência",2023,875261835

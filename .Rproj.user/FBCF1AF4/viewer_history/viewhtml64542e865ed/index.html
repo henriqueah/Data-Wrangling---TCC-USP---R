@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="lib/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="lib/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="lib/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="lib/kePrint-0.0.1/kePrint.js"></script>
+<link href="lib/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+</head>
+<body>
+<table class="table table-striped" style="font-size: 16px; width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> SKU REF. </th>
+   <th style="text-align:left;"> FA </th>
+   <th style="text-align:right;"> SKU </th>
+   <th style="text-align:left;"> ORGAO ORCAMENTARIO </th>
+   <th style="text-align:left;"> TITULO </th>
+   <th style="text-align:left;"> FONTE </th>
+   <th style="text-align:right;"> EXERCICIO FINANCEIRO </th>
+   <th style="text-align:right;"> VALOR </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 23705992174 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 8736247276 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 1208795261 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 51504959 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 2771674289 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 13022428 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 112717402 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 377006 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52231 </td>
+   <td style="text-align:left;"> Empresa Gerencial de Projetos Navais - EMGEPRON </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 3239426689 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 86949503 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 5235418 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 16569669 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 21860973 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 3417612683 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 2266770610 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 1394912809 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 199951768 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2023. LDO-2023, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2023 </td>
+   <td style="text-align:right;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 18535782538 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 8593872028 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 1196820839 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 15696393 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 1930439944 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 7741700 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 108080659 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 666800 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52231 </td>
+   <td style="text-align:left;"> Empresa Gerencial de Projetos Navais - EMGEPRON </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 54681096 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 2651492 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 15805727 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 14920425 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 3353711878 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 1945889227 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 1066411236 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 228393094 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2022. LDO-2022, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 17598063836 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 7732719555 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 1425274506 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 44280966 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 1622270486 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 8812887 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 100332570 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 200451 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 92400000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2337279 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2594 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 12637877 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 3545779406 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 1885545549 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 934164585 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 191305125 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2021. LDO-2021, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 16615398425 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 6523416067 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 655724665 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 61356964 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 1667277605 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 6304635 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 114115124 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 702640 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 70639869 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2864302 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 12234403 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 16616840 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 4377937860 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 1975524674 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 897901719 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 232781058 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2020. LDO-2020, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 12774483153 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 2499604522 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 1157511151 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 61376567 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 2179989531 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 7709236 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 83868446 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 136793 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 39240000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 3196443 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 13815390 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 9199182 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 3790389369 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 1861156358 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 826021682 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 241268483 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2019. LDO-2019, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 11537954042 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 2370410670 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 1050133500 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 106762476 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 1809845406 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 10482139 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 93262739 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 878746 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 37373624 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 532319 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 3023885 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 8316665 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 10691146 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 3423265515 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 1606677671 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 759027026 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2018. LDO-2018, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 247270515 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 11028506711 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 2497763650 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 1567013470 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 104906044 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 977842277 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 11357327 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 70792956 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 1013683 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 24174000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 5480000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 3872024 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 35222366 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 11596620 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 3224698847 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 1372179899 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 871649465 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2017. LDO-2017, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 248944083 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52000 </td>
+   <td style="text-align:left;"> Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 9542062109 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52101 </td>
+   <td style="text-align:left;"> Ministerio da Defesa - Administracao Direta </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 2316105212 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52111 </td>
+   <td style="text-align:left;"> Comando da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 1533000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52121 </td>
+   <td style="text-align:left;"> Comando do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 142789191 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52131 </td>
+   <td style="text-align:left;"> Comando da Marinha </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 663031253 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52211 </td>
+   <td style="text-align:left;"> Caixa de Financiamento Imobiliario da Aeronautica </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 7770428 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52221 </td>
+   <td style="text-align:left;"> Industria de Material Belico do Brasil IMBEL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 74249150 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52222 </td>
+   <td style="text-align:left;"> Fundacao Osorio </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 907476 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52232 </td>
+   <td style="text-align:left;"> Caixa de Construcoes de Casas para o Pessoal da Marinha - CCCPM </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 21990975 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52233 </td>
+   <td style="text-align:left;"> Amazonia Azul Tecnologias de Defesa S.A. - AMAZUL </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 11906690 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52901 </td>
+   <td style="text-align:left;"> Fundo do Ministerio da Defesa </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 3600132 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52902 </td>
+   <td style="text-align:left;"> Fundo de Administracao do Hospital das Forcas Armadas </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 24967114 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> DEFESA </td>
+   <td style="text-align:right;"> 52903 </td>
+   <td style="text-align:left;"> Fundo do Servico Militar </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Orgao e Unidade Orcamentaria </td>
+   <td style="text-align:left;"> Orcamento da Uniao – Exercicio financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 7132056 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> AERONAUTICA </td>
+   <td style="text-align:right;"> 52911 </td>
+   <td style="text-align:left;"> Fundo Aeronautico </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 2568966238 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> EXERCITO </td>
+   <td style="text-align:right;"> 52921 </td>
+   <td style="text-align:left;"> Fundo do Exercito </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 1207720536 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52931 </td>
+   <td style="text-align:left;"> Fundo Naval </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 731487183 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LOA </td>
+   <td style="text-align:left;"> MARINHA </td>
+   <td style="text-align:right;"> 52932 </td>
+   <td style="text-align:left;"> Fundo de Desenvolvimento do Ensino Profissional Maritimo </td>
+   <td style="text-align:left;"> Receitas de Todas as Fontes por Órgão e Unidade Orçamentária </td>
+   <td style="text-align:left;"> Orçamento da União – Exercício financeiro de 2016. LDO-2016, Anexo I, Inciso III - Quadro 3 </td>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 226438475 </td>
+  </tr>
+</tbody>
+</table> <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"]]}})</script><script async src="https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
