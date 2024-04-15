@@ -9,6 +9,9 @@ library(tidyverse)
 library(data.table)
 library(kableExtra)
 library(stringr)
+library(dplyr)
+library(readxl)
+library(devtools)
 
 #--------------------Importar os datasets---------------------------------------
 # "dataset_inicial" - LOA - Orçamento da União
@@ -33,6 +36,49 @@ df_receita_orcamento_md %>%
   kable_styling(bootstrap_options = "striped",
                 full_width = F,
                 font_size = 12)
+
+#--------------------Medição do Desempenho (tempo de execução)-----------------------------
+
+# Captura o tempo de início
+#start_time <- Sys.time()
+start_time <- proc.time()
+# Carregar os dados e realizar as operações de agrupamento e soma
+f_receita_orc_md <- read_csv('Receitas_Un.Orcam_MD_AnexoI.csv')
+result <- f_receita_orc_md %>%
+  group_by('ORGAO_ORCAMENTARIO') %>%
+  summarise(TOTAL_VALOR = sum(VALOR))
+
+# Mostrar o resultado
+#print(result)
+
+# Captura o tempo de término
+#end_time <- Sys.time()
+end_time <- proc.time()
+# Calcular o tempo decorrido e imprimir
+#print(end_time)
+elapsed_time <- end_time - start_time
+#print(paste("O código levou", elapsed_time, "segundos para executar"))
+print(paste("Tempo de execução: ", elapsed_time["elapsed"] * 1000, "milissegundos"))
+#print(paste("Tempo de execução: ", elapsed_time["elapsed"], "segundos"))
+
+# ---------------- contagem de recursos disponíveis ------------------------------------------
+
+total_functions_dplyr = ls("package:dplyr")
+print(length(total_functions_dplyr))
+
+# Lista de alguns pacotes principais do Tidyverse
+tidyverse_packages <- c("ggplot2", "dplyr", "tidyr", "readr", "purrr", "tibble", "stringr", "forcats")
+
+# Função para contar o número de funções exportadas por pacote
+count_package_functions <- function(package) {
+  ns <- getNamespaceExports(package)
+  return(length(ns))
+}
+
+# Aplica a função a cada pacote e soma o total
+total_functions <- sum(sapply(tidyverse_packages, count_package_functions))
+
+print(total_functions)
 
 #--------------------Entendimento do Dataset-----------------------------------------------
 #estrutura da base de dados

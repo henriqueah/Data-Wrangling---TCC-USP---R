@@ -34,6 +34,37 @@ df_receita_orcamento_md %>%
                 full_width = F,
                 font_size = 12)
 
+# Teste de memória
+install.packages("profvis")
+library(profvis)
+#library(tidyverse)
+
+profvis({
+  df_teste_memoria <- read_csv("Receitas_Un.Orcam_MD_AnexoI.csv")
+  # Realize algumas operações de data wrangling com tidyverse
+  #f_teste_memoria <- df_teste_memoria %>% drop_na()  # Exemplo de operação
+  result <- df %>%
+    group_by(ORGAO_ORCAMENTARIO) %>%
+    summarise(TOTAL_VALOR = sum(VALOR, na.rm = TRUE))
+  
+  print(result)
+})
+
+install.packages("pryr")
+library(pryr)
+gc()
+mem_before <- mem_used()
+
+result <- df_teste_memoria %>% 
+  group_by(`ORGAO ORCAMENTARIO`) %>% 
+  summarise(TOTAL_VALOR = sum(VALOR, na.rm = TRUE))
+
+gc()
+mem_after <- mem_used()
+
+mem_increase <- mem_after - mem_before
+print(mem_increase)
+
 #--------------------Entendimento do Dataset-----------------------------------------------
 #estrutura da base de dados
 glimpse(df_receita_orcamento_md)
